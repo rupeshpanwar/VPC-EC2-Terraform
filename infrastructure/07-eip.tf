@@ -1,3 +1,4 @@
+// to access public net via public subnet
 resource "aws_eip" "elastic-ip-for-nat-gw" {
   vpc                       = true
   associate_with_private_ip = "10.0.0.5"
