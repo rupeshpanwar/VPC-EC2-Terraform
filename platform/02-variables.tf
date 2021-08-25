@@ -20,3 +20,11 @@ variable "ec2_key_pair_name" {
 variable "ec2_instance_type" {
   description = "EC2 Instance type to launch"
 }
+
+variable "ec2_min_instance_size" {
+  description = "Minimum number of instances to launch in AutoScaling Group"
+}
+
+variable "ec2_max_instance_size" {
+  description = "Maximum number of instances to launch in AutoScaling Group"
+}
