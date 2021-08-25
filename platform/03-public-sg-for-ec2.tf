@@ -14,7 +14,7 @@ resource "aws_security_group" "ec2_public_security_group" {
     from_port   = 22
     protocol    = "TCP"
     to_port     = 22
-    cidr_blocks = ["0.0.0.0/0"]   # put own ip here when demonstrating
+    cidr_blocks = ["106.215.185.246/32"]   # put own ip here when demonstrating
   }
 
   egress {
