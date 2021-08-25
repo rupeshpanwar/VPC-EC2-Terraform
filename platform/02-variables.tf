@@ -13,7 +13,7 @@ variable "remote_state_key" {
 }
 
 variable "ec2_key_pair_name" {
-  default     = "connectEC2Key"
+  default     = "connectEC2key"
   description = "Key pair for connecting to launched EC2 instances"
 }
 
