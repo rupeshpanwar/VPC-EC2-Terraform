@@ -1,3 +1,4 @@
+//o enable instances present in a private subnet to help connect to the internet
 resource "aws_nat_gateway" "nat-gw" {
   allocation_id = aws_eip.elastic-ip-for-nat-gw.id
   subnet_id     = aws_subnet.public-subnet-1.id
